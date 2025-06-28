@@ -33,7 +33,14 @@
     padding: 10px 2vw;
 }
 .right p{
+    cursor: pointer;
     transition: color 1s;
+}
+.right input:checked + p {
+  color: #FE4165;
+}
+.right input{
+    display: none;
 }
 .right p:hover{
     color: #FE4165;

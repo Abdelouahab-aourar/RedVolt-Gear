@@ -9,10 +9,22 @@ function NavBar(){
          <p>RedVolt Gear</p>
       </div>
       <div className={styles.right}>
-         <p>HOME</p>
-         <p>PRODUCTS</p>
-         <p>MY CART</p>
-         <p>CONTACT US</p>
+         <label>
+            <input type="radio" name="nav" defaultChecked />
+            <p>Home</p>
+         </label>
+         <label>
+            <input type="radio" name="nav"/>
+            <p>PRODUCTS</p>
+         </label>
+         <label>
+            <input type="radio" name="nav"/>
+            <p>MY CART</p>
+         </label>
+         <label>
+            <input type="radio" name="nav"/>
+            <p>CONTACT US</p>
+         </label>
       </div>
     </nav>
     </>
