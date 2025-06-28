@@ -1,0 +1,12 @@
+.card{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+    border: 1px solid #FE4165;
+    margin: 20px 2vw;
+    background-color: #343434;
+    border-radius: 25px;
+}
