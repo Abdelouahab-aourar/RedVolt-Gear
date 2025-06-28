@@ -5,11 +5,19 @@
     margin: 100px 7vw;
     gap: 10vw;
 }
+.left p{
+    line-height: 3.5vh;
+}
+.left p span{
+    color: #FE4165;
+}
 .left h1{
     font-size: 42px;
+    line-height: 7vh;
 }
 .right img{
     width: 25vw;
+    min-width: 250px;
 }
 .left .buttons{
     display: flex;
