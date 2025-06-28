@@ -11,7 +11,7 @@ function NavBar(){
       <div className={styles.right}>
          <label>
             <input type="radio" name="nav" defaultChecked />
-            <p>Home</p>
+            <p>HOME</p>
          </label>
          <label>
             <input type="radio" name="nav"/>

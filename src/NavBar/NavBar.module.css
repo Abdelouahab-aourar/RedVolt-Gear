@@ -13,7 +13,7 @@
     transition: box-shadow 1s ease;
 }
 .nav:hover{
-    box-shadow: #FE4165 3px 3px 5px, #FE4165 -3px -3px 5px;
+    box-shadow: hsla(349, 99%, 63%, 0.6) 5px 5px 5px, hsla(349, 99%, 63%, 0.6) -5px -5px 5px;
 }
 .left{
     padding: 10px 2vw;
@@ -34,7 +34,7 @@
 }
 .right p{
     cursor: pointer;
-    transition: color 1s;
+    transition: color 1s ease, transform 1s ease;
 }
 .right input:checked + p {
   color: #FE4165;
@@ -43,6 +43,7 @@
     display: none;
 }
 .right p:hover{
+    transform: scale(1.1);
     color: #FE4165;
 }
 .right p:active{
