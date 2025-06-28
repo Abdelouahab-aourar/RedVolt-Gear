@@ -2,7 +2,59 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 100px 7vw;
+    gap: 10vw;
+}
+.left h1{
+    font-size: 42px;
 }
 .right img{
-    width: 150px;
+    width: 25vw;
+}
+.left .buttons{
+    display: flex;
+    align-self: center;
+    gap: 1vw;
+}
+.left .buttons button{
+    all: unset;
+    padding: 2vh 2.5vw;
+    text-align: center;
+    cursor: pointer;
+}
+.left .buttons button:nth-child(1){
+    color: black;
+    background-color: #FE4165;
+    transition: 1s ease transform;
+}
+.left .buttons button:nth-child(1):active{
+    transition: none;
+    background-color: hsl(349, 99%, 73%);
+}
+.left .buttons button:nth-child(2):active{
+    transition: none;
+    background-color: hsl(0, 0%, 20%);
+}
+.left .buttons button:hover{
+    transform: scale(1.1);
+}
+.left .buttons button:nth-child(2){
+    color: white;
+    background-color: transparent;
+    border: 1px solid #FE4165;
+    transition: 1s ease transform;
+}
+@media(max-width: 700px){
+    .home{
+        flex-direction: column;
+    }
+    .left h1{
+        font-size: 36px;
+    }
+    .left p{
+        font-size: 14px;
+    }
+    .right img{
+        width: 50vw;
+    }
 }

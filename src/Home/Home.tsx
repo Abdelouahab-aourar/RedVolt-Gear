@@ -5,8 +5,8 @@ function Home(){
     <>
     <div className={styles.home}>
         <div className={styles.left}>
-            <h1>RedVolt Gear Sell Pc Accessories</h1>
-            <p>Welcome to RedVolt Gar Ecommerce website, in which we provide the highest quality of accessories that you need with the best price in the market.</p>
+            <h1>RedVolt Gear<br/> Sell Pc Accessories</h1>
+            <p>Welcome to RedVolt Gar Ecommerce website, in which we provide the highest quality of accessories that you need with the best price the market.</p>
             <div className={styles.buttons}>
                 <button>Login</button>
                 <button>Sign Up</button>
