@@ -1,6 +1,6 @@
 .productsContainer {
   display: inline-flex;
-  flex-wrap: wrap; /* Optional: allows wrapping if many products */
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 100%;
