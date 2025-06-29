@@ -1,13 +1,21 @@
 import styles from './Products.module.css'
-function Products(){
+interface ProductProps {
+  title: string;
+  image: string;
+}
+function Products({title, image}: ProductProps){
+    
     return (
         <>
             <div className={styles.card}>
                 <div className={styles.top}>
-                    title and image
+                    <h1>{title}</h1>
+                    <img src={image} />
                 </div>
                 <div className={styles.bottom}>
-                    buttons
+                    <button>Description</button>
+                    <input type="number" />
+                    <button>Add To cart</button>
                 </div>
             </div>
         </>

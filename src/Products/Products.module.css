@@ -10,3 +10,16 @@
     background-color: #343434;
     border-radius: 25px;
 }
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.top img{
+    height: 350px;
+}
+.top h1{
+    text-align: center;
+    font-weight: 500;
+}
