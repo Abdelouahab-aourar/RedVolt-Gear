@@ -5,6 +5,7 @@ import keyboard from '../assets/keyboard.png'
 import mouse from '../assets/mouse.png'
 import smartWatch from '../assets/smart-watch.png'
 import Products from '../Products/Products'
+import styles from './Slides.module.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
@@ -13,7 +14,8 @@ import 'swiper/css/pagination';
 
 function Slides(){
     return(
-        <div className='wahab'>
+        <div className={styles.container}>
+            <h1 className={styles.OurProducts}>Our Products</h1>
          <Swiper
         modules={[Navigation, Pagination]}
         spaceBetween={30}
