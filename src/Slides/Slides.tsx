@@ -7,43 +7,58 @@ import smartWatch from '../assets/smart-watch.png'
 import Products from '../Products/Products'
 import styles from './Slides.module.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination } from 'swiper/modules';
+import { Navigation, Pagination, EffectCoverflow} from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import 'swiper/css/effect-coverflow';
 
 function Slides(){
     return(
+        <>
+        <h1 className={styles.OurProducts}>Our Products</h1>
         <div className={styles.container}>
-            <h1 className={styles.OurProducts}>Our Products</h1>
          <Swiper
-        modules={[Navigation, Pagination]}
+        modules={[Navigation, Pagination, EffectCoverflow]}
+        effect="coverflow"
+        grabCursor={true}
         spaceBetween={30}
-        slidesPerView={2}
+        centeredSlides={true}
         navigation
         pagination={{ clickable: true }}
         loop
+        slidesPerView={1}
+        coverflowEffect={{
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: false,
+      }}
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
       >
-        <SwiperSlide>
+        <SwiperSlide className={styles.slide}>
           <Products title="Wireless Earbuds" image={airbuds} />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className={styles.slide}>
           <Products title="1TB External Hard Drive" image={hdd} />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className={styles.slide}>
           <Products title="Wireless Gaming Headset" image={headset} />
-        </SwiperSlide><SwiperSlide>
+        </SwiperSlide>
+        <SwiperSlide className={styles.slide}>
           <Products title="Wired Gaming Keyboard" image = {keyboard}/>
-        </SwiperSlide><SwiperSlide>
+        </SwiperSlide>
+        <SwiperSlide className={styles.slide}>
           <Products title="Razer Basilisk Gaming Mouse" image = {mouse}/>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className={styles.slide}>
         <Products title="Smart Watch" image = {smartWatch}/>
         </SwiperSlide>
       </Swiper>
         </div>
+        </>
     );
 }
 export default Slides;
