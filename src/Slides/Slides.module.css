@@ -1,6 +1,7 @@
 .OurProducts{
     text-align: center;
     margin: 100px;
+    margin-top: 140px;
     font-size: 42px;
 }
 :global(.swiper-button-next),
@@ -12,10 +13,13 @@
   top: 50%;
   transform: translateY(-50%);  
   z-index: 10;
+  border: 1px #FE4165 solid;
 }
 :global(.swiper-button-next):hover,
 :global(.swiper-button-prev):hover {
+  transition: 0.5s box-shadow ease;
   opacity: 80%;
+  box-shadow: hsla(349, 99%, 63%, 0.6) 2px 2px 2px, hsla(349, 99%, 63%, 0.6) -2px -2px 2px;
 }
 :global(.swiper-button-next):active,
 :global(.swiper-button-prev):active {
@@ -25,11 +29,6 @@
 :global(.swiper-button-prev::after) {
   color: #FE4165;
   font-weight: 600;
-}
-:global(.swiper-pagination) {
-  position: relative !important;
-  bottom: auto !important;
-  margin: 20px auto;
 }
 :global(.swiper) {
   --swiper-pagination-bullet-size: 14px;
@@ -41,7 +40,7 @@
   transform: scale(1.3);
   background-color: #FE4165;
   opacity: 0.8;
-  transition: transform 0.3s ease, background-color 0.3s ease, opacity 0.3s ease;
+  transition: transform 1s ease, background-color 1s ease, opacity 1s ease;
 
 }
 :global(.swiper-pagination-bullet-active) {
