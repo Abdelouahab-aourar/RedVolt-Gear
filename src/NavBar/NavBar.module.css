@@ -1,5 +1,8 @@
 .nav{
     display: flex;
+    position: sticky;
+    z-index: 10;
+    top: 30px;
     align-items: center;
     justify-content: space-between;
     background-color: #343434;
@@ -55,6 +58,8 @@
     flex-direction: column;
     padding: 10px 2vw;
     border-radius: 20px;
+    position: relative;
+    top: 0;
   }
   .left, .right {
     flex-direction: column;
