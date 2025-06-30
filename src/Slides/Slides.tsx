@@ -27,7 +27,21 @@ function Slides(){
         navigation
         pagination={{ clickable: true }}
         loop
-        slidesPerView={1}
+        slidesPerView={2}
+        breakpoints={{
+        0: {
+          slidesPerView: 1,
+        },
+        700: {
+          slidesPerView: 1,
+        },
+        1200: {
+          slidesPerView: 1, // for screen width <= 1200
+        },
+        1201: {
+          slidesPerView: 2,
+        },
+          }}
         coverflowEffect={{
         rotate: 50,
         stretch: 0,
