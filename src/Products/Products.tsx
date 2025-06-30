@@ -14,7 +14,6 @@ function Products({title, image}: ProductProps){
                 </div>
                 <div className={styles.bottom}>
                     <button>Description</button>
-                    <input type="number" />
                     <button>Add To cart</button>
                 </div>
             </div>
