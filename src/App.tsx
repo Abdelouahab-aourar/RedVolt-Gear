@@ -4,6 +4,7 @@ import { useState } from "react";
 import type { ProductProps } from './Products/Products.tsx';
 import Slides from './Slides/Slides.tsx'
 import Cart from './Cart/Cart.tsx'
+import Contact from './Contact/Contact.tsx';
 interface CartItem extends ProductProps {
   cartId: string;
   isRemoved: boolean;
@@ -32,6 +33,7 @@ const handleRemoveFromCart = (cartId: string) => {
     <Home/>
     <Slides onAddToCart={handleAddToCart}/>
     <Cart items={cartItems.filter(item => !item.isRemoved)} onRemoveFromCart={handleRemoveFromCart} />
+    <Contact/>
     </>
   )
 }

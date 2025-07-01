@@ -1,0 +1,28 @@
+.title{
+    margin: 100px;
+    text-align: center;
+    font-size: 42px;
+}
+.container{
+    align-content: center;
+}
+.line{
+    width: 100%;
+    height: 0.1vh;
+    background-color: #FE4165;
+    margin: 1vh auto;
+}
+.afterLine{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.middle{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+.middle p{
+    cursor: pointer;
+}
