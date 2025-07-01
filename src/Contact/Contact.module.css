@@ -61,44 +61,76 @@
     align-items: center;
     flex-direction: column;
 }
-.email, .phone{
+.email, .phone, .Facebook, .Instagram, .Youtube{
     display: flex;
     align-items: center;
     gap: 1vw;
     cursor: pointer;
 }
-.email div{
+.email div, .phone div, .Facebook div, .Instagram div, .Youtube div{
     height: 18px;
     width: 18px;
-    background-image: url(../assets/email.svg);
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
+}
+.email div{
+    background-image: url(../assets/email.svg);
 }
 .email:hover div {
   transition: 1s background-image ease;
   background-image: url(../assets/email_hover.svg);
 }
-
 .email:hover p {
     transition: 1s color ease;
-  color: #FE4165;
+    color: #FE4165;
 }
-
 .phone:hover div {
-  transition: 1s background-image ease;
-  background-image: url(../assets/phone_hover.svg);
+    transition: 1s background-image ease;
+    background-image: url(../assets/phone_hover.svg);
 }
-
 .phone:hover p {
     transition: 1s color ease;
-  color: #FE4165;
+    color: #FE4165;
 }
 .phone div{
-    height: 18px;
-    width: 18px;
     background-image: url(../assets/phone.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    display: inline-block;
+}
+.Facebook div{
+    background-image: url(../assets/facebook.svg);
+}
+.Instagram div{
+    background-image: url(../assets/instagram.svg);
+}
+.Youtube div{
+    background-image: url(../assets/youtube.svg);
+}
+.followUs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Facebook:hover div {
+  transition: 1s background-image ease;
+  background-image: url(../assets/facebook_hover.svg);
+}
+.Facebook:hover p {
+    transition: 1s color ease;
+    color: #FE4165;
+}
+.Youtube:hover div {
+    transition: 1s background-image ease;
+    background-image: url(../assets/youtube_hover.svg);
+}
+.Youtube:hover p {
+    transition: 1s color ease;
+    color: #FE4165;
+}
+.Instagram:hover div {
+    transition: 1s background-image ease;
+    background-image: url(../assets/instagram_hover.svg);
+}
+.Instagram:hover p {
+    transition: 1s color ease;
+    color: #FE4165;
 }

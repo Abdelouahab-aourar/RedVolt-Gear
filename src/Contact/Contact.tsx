@@ -24,12 +24,22 @@ function Contact(){
                     <div className={styles.phone}>
                         <div></div>
                         <p>+213 555 000-0000</p>
-
                     </div>
-
                 </div>
                 <div className={styles.followUs}>
-
+                    <h4>Follow Us</h4>
+                    <div className={styles.Facebook}>
+                        <div></div>
+                        <p>Facebook</p>
+                    </div>
+                    <div className={styles.Instagram}>
+                        <div></div>
+                        <p>Instagram</p>
+                    </div>
+                    <div className={styles.Youtube}>
+                        <div></div>
+                        <p>Youtube</p>
+                    </div>
                 </div>
             </div>
             <div className={styles.bottom}>
