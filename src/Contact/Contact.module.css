@@ -61,8 +61,44 @@
     align-items: center;
     flex-direction: column;
 }
-.email .phone{
+.email, .phone{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 1vw;
+    cursor: pointer;
+}
+.email div{
+    height: 18px;
+    width: 18px;
+    background-image: url(../assets/email.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+.email:hover div {
+  transition: 1s background-image ease;
+  background-image: url(../assets/email_hover.svg);
+}
+
+.email:hover p {
+    transition: 1s color ease;
+  color: #FE4165;
+}
+
+.phone:hover div {
+  transition: 1s background-image ease;
+  background-image: url(../assets/phone_hover.svg);
+}
+
+.phone:hover p {
+    transition: 1s color ease;
+  color: #FE4165;
+}
+.phone div{
+    height: 18px;
+    width: 18px;
+    background-image: url(../assets/phone.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
 }
