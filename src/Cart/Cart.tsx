@@ -1,4 +1,4 @@
-import styles from './Cart.module.css'
+import styles from './Cart.module.css';
 import type { ProductProps } from '../Products/Products';
 interface CartProps {
   items: ProductProps[];
@@ -9,12 +9,16 @@ function Cart({ items }: CartProps){
         <h1 className={styles.MyCart}>My Cart</h1>
         <div className={styles.orders}>
              {items.length === 0 ? (
-          <p>Your cart is empty.</p>
+          <h2 className={styles.empty}>Your cart is empty.</h2>
         ) : (
           items.map((item, index) => (
             <div key={index} className={styles.cartItem}>
               <img src={item.image} alt={item.title} />
-              <p>{item.title}</p>
+              <h2>{item.title}</h2>
+              <div className={styles.buttons}>
+                <button>Checkout</button>
+                <button>Remove</button>
+              </div>
             </div>
           ))
         )}

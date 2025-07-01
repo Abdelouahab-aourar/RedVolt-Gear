@@ -1,12 +1,12 @@
-import airbuds from '../assets/airbuds.png'
-import hdd from '../assets/hdd.png'
-import headset from '../assets/headset.png'
-import keyboard from '../assets/keyboard.png'
-import mouse from '../assets/mouse.png'
-import smartWatch from '../assets/smart-watch.png'
-import Products from '../Products/Products'
-import styles from './Slides.module.css'
-import type { ProductProps } from '../Products/Products'
+import airbuds from '../assets/airbuds.png';
+import hdd from '../assets/hdd.png';
+import headset from '../assets/headset.png';
+import keyboard from '../assets/keyboard.png';
+import mouse from '../assets/mouse.png';
+import smartWatch from '../assets/smart-watch.png';
+import Products from '../Products/Products';
+import styles from './Slides.module.css';
+import type { ProductProps } from '../Products/Products';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, EffectCoverflow} from 'swiper/modules';
 import 'swiper/css';
