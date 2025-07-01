@@ -1,9 +1,14 @@
 import styles from './Cart.module.css';
 import type { ProductProps } from '../Products/Products';
-interface CartProps {
-  items: ProductProps[];
+interface CartItem extends ProductProps {
+  cartId: string;
+  isRemoved: boolean;
 }
-function Cart({ items }: CartProps){
+interface CartProps {
+  items: CartItem[];
+  onRemoveFromCart: (cartId: string) => void;
+}
+function Cart({ items, onRemoveFromCart }: CartProps){
     return (
         <>
         <h1 className={styles.MyCart}>My Cart</h1>
@@ -11,13 +16,14 @@ function Cart({ items }: CartProps){
              {items.length === 0 ? (
           <h2 className={styles.empty}>Your cart is empty.</h2>
         ) : (
-          items.map((item, index) => (
-            <div key={index} className={styles.cartItem}>
+          items.map((item) => (
+            <div  key={item.cartId}
+              className={`${styles.cartItem} ${item.isRemoved ? styles.remove : ''}`}>
               <img src={item.image} alt={item.title} />
               <h2>{item.title}</h2>
               <div className={styles.buttons}>
                 <button>Checkout</button>
-                <button>Remove</button>
+                <button onClick={() => onRemoveFromCart(item.cartId)}>Remove</button>
               </div>
             </div>
           ))

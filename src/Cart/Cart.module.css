@@ -64,3 +64,6 @@
     transform: scale(1.01);
     box-shadow: hsla(349, 99%, 63%, 0.6) 10px 10px 80px, hsla(349, 99%, 63%, 0.6) -10px -10px 80px;
 }
+.remove{
+    display: none;
+}
