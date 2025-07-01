@@ -134,3 +134,15 @@
     transition: 1s color ease;
     color: #FE4165;
 }
+@media (max-width: 700px){
+    .top{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .buttons{
+        flex-direction: column;
+    }
+    .afterLine{
+        flex-direction: column;
+    }
+}
