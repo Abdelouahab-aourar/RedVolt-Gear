@@ -9,13 +9,23 @@ function Contact(){
                 <div className={styles.newsletter}>
                     <img src={icon} alt="logo" />
                     <p>Join our newsletter to stay up to date on our new products.</p>
-                    <div className={styles.buttons}>
-                        <input type="email"/>
-                        <button>Subscribe</button>
-                    </div>
-                    <p>By subscribing you agree to with our Privacy Policy and provide consent to receive updates from our company.</p>
+                    <form className={styles.buttons}>
+                        <input type="email" placeholder='Enter Your Email' required/>
+                        <input type="submit" value="Subscribe"/>
+                    </form>
+                    <p>By subscribing you agree to our Privacy Policy and provide consent to receive updates from our company.</p>
                 </div>
                 <div className={styles.contactUs}>
+                    <h4>Contact Us</h4>
+                    <div className={styles.email}>
+                        <div></div>
+                        <p>contact@redvoltgear.com</p>
+                    </div>
+                    <div className={styles.phone}>
+                        <div></div>
+                        <p>+213 555 000-0000</p>
+
+                    </div>
 
                 </div>
                 <div className={styles.followUs}>

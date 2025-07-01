@@ -42,3 +42,27 @@
 .newsletter img{
     height: 5vh;
 }
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.buttons input{
+    all: unset;
+    border: #FE4165 1px solid;
+    padding: 1.5vh 1.5vw;
+}
+.buttons input:nth-child(2){
+    cursor: pointer;
+    background-color: #FE4165;
+}
+.contactUs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.email .phone{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
