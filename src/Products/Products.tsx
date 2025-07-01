@@ -1,9 +1,12 @@
 import styles from './Products.module.css'
-interface ProductProps {
+export interface ProductProps {
   title: string;
   image: string;
 }
-function Products({title, image}: ProductProps){
+interface ProductListProps {
+  onAddToCart: (product: ProductProps) => void;
+}
+function Products({ title, image, onAddToCart }: ProductProps & ProductListProps){
     
     return (
         <>
@@ -14,7 +17,7 @@ function Products({title, image}: ProductProps){
                 </div>
                 <div className={styles.bottom}>
                     <button>Description</button>
-                    <button>Add To cart</button>
+                    <button onClick={() =>onAddToCart({ title, image })}>Add To cart</button>
                 </div>
             </div>
         </>
