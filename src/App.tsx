@@ -1,6 +1,6 @@
 import NavBar from './NavBar/NavBar.tsx'
 import Home from './Home/Home.tsx'
-import React, { useState } from "react";
+import { useState } from "react";
 import type { ProductProps } from './Products/Products.tsx';
 import Slides from './Slides/Slides.tsx'
 import Cart from './Cart/Cart.tsx'
