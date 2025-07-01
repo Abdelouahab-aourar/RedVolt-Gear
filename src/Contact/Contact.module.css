@@ -17,6 +17,7 @@
     align-items: center;
     justify-content: space-between;
     font-size: 14px;
+    margin-bottom: 5vh;
 }
 .middle{
     display: flex;
