@@ -145,4 +145,7 @@
     .afterLine{
         flex-direction: column;
     }
+    .newsletter{
+        align-items: center;
+    }
 }
