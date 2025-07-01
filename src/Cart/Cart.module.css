@@ -28,7 +28,6 @@
     flex-direction: column;
 }
 .buttons button{
-    gap: 20px;
     all: unset;
     cursor: pointer;
     padding: 1.5vh 1.5vw;
@@ -66,4 +65,34 @@
 }
 .remove{
     display: none;
+}
+@media (max-width: 700px){
+    h2{
+        font-size: 18px;
+    }
+    .buttons button{
+        font-size: 12px;
+        padding: 1vh 1vw;
+    }
+    .cartItem{
+    height: 80px;
+    margin: 15px auto;
+    }
+
+}
+@media (max-width: 500px){
+    h2{
+        font-size: 12px;
+    }
+    .buttons button{
+        font-size: 8px;
+    }
+    .cartItem{
+        height: 60px;
+        margin: 10px auto;
+    }
+    .cartItem img{
+        height: 65%;
+    }
+
 }
