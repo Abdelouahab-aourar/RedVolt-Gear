@@ -30,10 +30,18 @@ const handleRemoveFromCart = (cartId: string) => {
   return (
     <>
     <NavBar/>
-    <Home/>
-    <Slides onAddToCart={handleAddToCart}/>
-    <Cart items={cartItems.filter(item => !item.isRemoved)} onRemoveFromCart={handleRemoveFromCart} />
+    <section id='home'>
+      <Home/>
+    </section>
+    <section id='products'>
+      <Slides onAddToCart={handleAddToCart}/>
+    </section>
+    <section id='cart'>
+      <Cart items={cartItems.filter(item => !item.isRemoved)} onRemoveFromCart={handleRemoveFromCart} />
+    </section>
+    <section id='contact'>      
     <Contact/>
+    </section>
     </>
   )
 }

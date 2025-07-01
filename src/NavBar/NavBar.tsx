@@ -11,19 +11,19 @@ function NavBar(){
       <div className={styles.right}>
          <label>
             <input type="radio" name="nav" defaultChecked />
-            <p>HOME</p>
+            <a href="#home"><p>HOME</p></a>
          </label>
          <label>
             <input type="radio" name="nav"/>
-            <p>PRODUCTS</p>
+            <a href="#products"><p>PRODUCTS</p></a>
          </label>
          <label>
             <input type="radio" name="nav"/>
-            <p>MY CART</p>
+            <a href="#cart"><p>MY CART</p></a>
          </label>
          <label>
             <input type="radio" name="nav"/>
-            <p>CONTACT US</p>
+            <a href="#contact"><p>CONTACT US</p></a>
          </label>
       </div>
     </nav>
