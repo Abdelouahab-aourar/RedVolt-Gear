@@ -10,6 +10,7 @@
 
 - ⚛️ **React + TypeScript** architecture
 - 💥 **Framer Motion** animations (scroll-triggered)
+- 🎞️ **Swiper.js** for smooth product slide transitions
 - 🧠 **Dynamic import** (lazy load + `Suspense`)
 - 🛒 Functional **shopping cart**
 - 📱 Mobile-friendly layout (responsive)
