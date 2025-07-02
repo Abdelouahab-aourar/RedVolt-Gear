@@ -1,6 +1,6 @@
 .OurProducts{
     text-align: center;
-    margin: 100px;
+    margin-bottom: 60px;
     margin-top: 140px;
     font-size: 42px;
 }
@@ -31,8 +31,8 @@
   font-weight: 600;
 }
 :global(.swiper) {
-  --swiper-pagination-bullet-size: 14px;
-  --swiper-pagination-bullet-horizontal-gap: 5px;
+  --swiper-pagination-bullet-size: 12spx;
+  --swiper-pagination-bullet-horizontal-gap: 4px;
   --swiper-pagination-bullet-border-radius: 50%;
   --swiper-pagination-color: #FE4165;
 }
@@ -46,9 +46,4 @@
 :global(.swiper-pagination-bullet-active) {
   transform: scale(1.3);
   transition: transform 0.3s ease, background-color 0.3s ease;
-}
-@media (max-width: 700){
-    .OurProducts{
-        font-size: 36px;
-    }
 }

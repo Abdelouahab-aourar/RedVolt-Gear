@@ -1,16 +1,12 @@
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 body{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     margin: 0 5vw;
-    padding: 0;
     background-image: linear-gradient(60deg, #1A1A1A, #262626, #1A1A1A);
-    background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
     font-family: "Josefin Sans", sans-serif;
     color: white;
 }

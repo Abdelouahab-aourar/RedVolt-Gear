@@ -1,5 +1,5 @@
 .MyCart{
-    margin: 100px auto;
+    margin: 80px;
     font-size: 42px;
     text-align: center;
 }
@@ -68,10 +68,10 @@
 }
 @media (max-width: 700px){
     h2{
-        font-size: 18px;
+        font-size: 16px;
     }
     .buttons button{
-        font-size: 12px;
+        font-size: 10px;
         padding: 1vh 1vw;
     }
     .cartItem{
@@ -91,8 +91,4 @@
         height: 60px;
         margin: 10px auto;
     }
-    .cartItem img{
-        height: 65%;
-    }
-
 }
