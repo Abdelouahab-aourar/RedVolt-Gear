@@ -3,14 +3,11 @@
     text-align: center;
     font-size: 42px;
 }
-.container{
-    align-content: center;
-}
 .line{
     width: 100%;
     height: 0.1vh;
     background-color: #FE4165;
-    margin: 1vh auto;
+    margin: 1vh;
 }
 .afterLine{
     display: flex;

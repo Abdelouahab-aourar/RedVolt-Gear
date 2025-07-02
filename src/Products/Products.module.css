@@ -65,10 +65,8 @@
         height: 450px;
     }
     .card:hover{
-    transition: 1s ease box-shadow, 1s ease transform;
-    transform: scale(1.01);
-    box-shadow: hsla(349, 99%, 63%, 0.6) 10px 10px 20px, hsla(349, 99%, 63%, 0.6) -10px -10px 20px;
-}
+        box-shadow: hsla(349, 99%, 63%, 0.6) 10px 10px 20px, hsla(349, 99%, 63%, 0.6) -10px -10px 20px;
+    }
     .top img{
         height: 220px;
     }
