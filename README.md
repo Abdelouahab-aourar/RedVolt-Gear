@@ -1,6 +1,6 @@
 # 🔴 RedVolt Gear
 
-**RedVolt Gear** is a sleek, animated React-based e-commerce UI built to showcase and sell high-quality **laptop accessories**.
+**RedVolt Gear** is a sleek, animated React-based e-commerce Front End built to showcase and sell high-quality **laptop accessories**.
 
 🚀 Fast, responsive, and powered by modern React + TypeScript + Framer Motion.
 
