@@ -48,7 +48,7 @@
 
 ## 🚀 Getting Started
 
-git clone https://github.com/Abdelouahab-aourar/RedVolt-Gear
-cd redvolt-gear
-npm install
-npm run dev
+- git clone https://github.com/Abdelouahab-aourar/RedVolt-Gear
+- cd redvolt-gear
+- npm install
+- npm run dev
