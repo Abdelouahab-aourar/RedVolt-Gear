@@ -37,7 +37,6 @@
 - **TypeScript**
 - **Framer Motion**
 - **React Lazy/Suspense**
-- *(Optional: Tailwind CSS or your preferred styling system)*
 
 ---
 
@@ -49,7 +48,6 @@
 
 ## 🚀 Getting Started
 
-```bash
 git clone https://github.com/your-username/redvolt-gear.git
 cd redvolt-gear
 npm install
