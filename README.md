@@ -1,6 +1,6 @@
 # 🔴 RedVolt Gear
 
-**RedVolt Gear** is a sleek, animated React-based e-commerce UI built to showcase and sell high-quality **laptop accessories**.
+**RedVolt Gear** is a sleek, animated React-based e-commerce Front End built to showcase and sell high-quality **laptop accessories**.
 
 🚀 Fast, responsive, and powered by modern React + TypeScript + Framer Motion.
 
@@ -37,7 +37,6 @@
 - **TypeScript**
 - **Framer Motion**
 - **React Lazy/Suspense**
-- *(Optional: Tailwind CSS or your preferred styling system)*
 
 ---
 
@@ -49,8 +48,7 @@
 
 ## 🚀 Getting Started
 
-```bash
-git clone https://github.com/your-username/redvolt-gear.git
+https://github.com/Abdelouahab-aourar/RedVolt-Gear
 cd redvolt-gear
 npm install
 npm run dev
