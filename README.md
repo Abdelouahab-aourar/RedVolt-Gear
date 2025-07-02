@@ -42,7 +42,7 @@
 
 ## 🖼️ Preview
 
-> _(Insert a screenshot or animated preview here)_
+![Screen Shot of the landing page](./src/assets/redvolt-gear%20layout.png)
 
 ---
 
